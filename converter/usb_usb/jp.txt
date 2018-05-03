@@ -1,0 +1,10 @@
+todo:
+
+$ sudo apt install dfu-programmer avr-libc gcc-avr
+$ cd tmk_keyboard
+$ git submodule init
+$ git submodule update
+$ cd converter/usb_usb
+$ make clean
+$ make
+$ sudo make dfu
